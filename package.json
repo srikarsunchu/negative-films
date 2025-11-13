@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harrnish/negative-films.git"
+    "url": "git+https://github.com/srikarsunchu/negative-films.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/harrnish/negative-films/issues"
+    "url": "https://github.com/srikarsunchu/negative-films/issues"
   },
-  "homepage": "https://github.com/harrnish/negative-films#readme",
+  "homepage": "https://github.com/srikarsunchu/negative-films#readme",
   "description": "",
   "dependencies": {
     "gsap": "^3.13.0",

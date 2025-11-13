@@ -12,6 +12,12 @@ export default defineConfig({
         contact: resolve(__dirname, "contact.html"),
         film: resolve(__dirname, "film.html"),
       },
+      output: {
+        manualChunks: {
+          "three": ["three"],
+          "gsap": ["gsap"],
+        },
+      },
     },
     assetsInclude: [
       "**/*.jpeg",
@@ -19,7 +25,11 @@ export default defineConfig({
       "**/*.png",
       "**/*.svg",
       "**/*.gif",
+      "**/*.mp4",
     ],
     copyPublicDir: true,
+    minify: "esbuild",
+    sourcemap: false,
+    chunkSizeWarningLimit: 1000,
   },
 });
